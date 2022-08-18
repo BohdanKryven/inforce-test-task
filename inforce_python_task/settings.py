@@ -36,9 +36,15 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework_simplejwt",
+    'rest_framework_swagger',
     "rest_framework",
+    "restaurant",
+    "corsheaders",
     "user",
 ]
+
+CORS_ORIGIN_ALLOW_ALL = True
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
